@@ -13,7 +13,7 @@
   "scripts": {
     "test": "jest",
     "build": "rollup -c",
-    "precommit": "echo \."
+    "precommit": "npm run test && lint-staged"
   },
   "husky": {
     "hooks": {
