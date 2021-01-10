@@ -46,7 +46,3 @@ export class graph {
     }
   };
 }
-
-const b = new graph([{ name: 'asdf' }]);
-
-console.log(b);
